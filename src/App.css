@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lacquer&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background: rgb(39, 33, 33);
+  color: #fff;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+h1,
+h3 {
+  font-family: "Pangolin", sans-serif;
+}
+
+.info-location {
+  font-family: Lacquer;
+  font-size: 2rem;
+}
+.title-2 {
+  text-align: start;
+  font-size: 30px;
+}
+.App {
+  text-align: center;
+  padding: 70px;
+  width: 100vw;
+}
+
+.banner {
+  background-image: url(./img/QQWVSJ6MDVGKRELX455KIABEEY.gif);
+  height: 300px;
+  width: 100%;
+  background-position: 45% 20%;
+}
+input {
+  width: 50%;
+  background-color: #443737;
+  color: hsla(0, 0%, 100%, 0.4);
+  border: none;
+  box-shadow: 1px 1px 6px rgb(0 0 0 / 50%);
+}
+.btn {
+  background-color: hsla(0, 0%, 100%, 0.4);
+  border-radius: 5px;
+  font-size: small;
+}
+.information {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.item {
+  width: 100%;
+  padding: 10px;
+}
+
+.card {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #3d3535;
+  height: 100%;
+}
+
+.card img {
+  width: 100%;
+}
+.description {
+  font-size: 0.8rem;
+  margin-bottom: 3.5px;
+  color: hsla(0, 0%, 100%, 0.4);
+}
+.name {
+  font-family: Lacquer;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+@media (min-width: 558px) {
+  .item {
+    width: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .item {
+    width: 33.3333333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .item {
+    width: 25%;
+  }
+}
